@@ -1,0 +1,40 @@
+.sp {
+    &_container {
+        min-width: 300px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+        left: 0;
+        padding-left: 24px;
+        background-color: #1c1b1b;
+        color: white;
+        margin-right: 32px;
+    }
+
+    &_header {
+        font-size: 20px;
+        margin-bottom: 32px;
+    }
+
+    &_list {
+        list-style: none;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    &_link {
+        border: none;
+        padding: 4px 0;
+        margin-bottom: 16px;
+        cursor: pointer;
+        background-color: inherit;
+        font-size: 16px;
+        color: #ffffff;
+        display: block;
+        text-decoration: none;
+
+        &:hover {
+            color: #daa161;
+        }
+    }
+}
