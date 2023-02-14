@@ -8,7 +8,7 @@ const routerList = createBrowserRouter([
         element: (
             <>
                 <SidePanel />
-                <div>Main</div>
+                <div>Main1</div>
             </>
         ),
     },
