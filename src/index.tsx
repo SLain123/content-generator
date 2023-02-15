@@ -4,6 +4,7 @@ import reportWebVitals from './reportWebVitals';
 import { RouterProvider } from 'react-router-dom';
 
 import { routerList } from 'modules/router-list';
+import { MarkEditor } from 'modules/mark-editor';
 import { MainContainer } from 'components/wrappers/main-container';
 
 import './index.css';
@@ -15,7 +16,7 @@ root.render(
     <React.StrictMode>
         <MainContainer>
             <RouterProvider router={routerList} />
-            <div style={{ maxWidth: 200 }}>Rich</div>
+            <MarkEditor />
         </MainContainer>
     </React.StrictMode>,
 );

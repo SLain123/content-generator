@@ -1,0 +1,41 @@
+.editor {
+    &_container {
+        min-width: 50%;
+        position: relative;
+    }
+
+    &_btn_block {
+        display: flex;
+        justify-content: space-between;
+        margin: 8px 32px;
+
+        & button {
+            padding: 8px 24px;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+
+            &:hover {
+                opacity: 0.9;
+            }
+        }
+    }
+
+    &_copy {
+        background-color: #7a901a;
+    }
+
+    &_clean {
+        background-color: rgb(244, 145, 145);
+    }
+}
+
+:global(.w-md-editor-toolbar) {
+    & ul li button svg {
+        width: 18px;
+        height: 18px;
+        margin-right: 6px;
+    }
+}
